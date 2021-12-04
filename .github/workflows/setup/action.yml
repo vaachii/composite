@@ -1,0 +1,9 @@
+name: 'setup'
+description: 'setup'
+inputs:
+outputs:
+runs:
+  using: "composite"
+  steps:
+    - name: test
+      run: echo composite
