@@ -5,3 +5,5 @@ runs:
     - name: test
       run: echo composite
       shell: bash
+
+    - uses: actions/setup-python@v2
