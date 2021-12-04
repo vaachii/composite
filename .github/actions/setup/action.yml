@@ -1,9 +1,7 @@
-name: 'setup'
-description: 'setup'
-inputs:
-outputs:
+name: "setup"
 runs:
   using: "composite"
   steps:
     - name: test
       run: echo composite
+      shell: bash
